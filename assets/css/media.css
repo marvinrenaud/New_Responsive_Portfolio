@@ -52,6 +52,49 @@
 }
 
 @media screen and (max-width: 640px) {
+  .auth-image {
+    width: 100%;
+  }
+
+  .container {
+    max-width: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #main-container {
+    max-width: 600px;
+    padding-top: 160px;
+}
+
+  #logo {
+    width: 100%;
+  }
+
+  nav {
+    /** float: none; **/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: none;
+  }
+
+  nav a {
+    margin-left: 40px;
+    padding-left: 40px;
+
+  }
+
+  .main-section {
+    max-width: 100%;
+    float: none;
+    overflow: auto;
+}
+
+  .work {
+    width: 100%;
+  }
+
 
 
 }
