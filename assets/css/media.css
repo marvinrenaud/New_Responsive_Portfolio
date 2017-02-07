@@ -17,13 +17,36 @@
     max-width: 780px;
   }
 
-  nav {
-    right: 100px;
-  }
-
 }
 
 @media screen and (max-width: 768px) {
+  .auth-image {
+    width: 50%;
+  }
+
+  .container {
+  margin-left: 25px;
+  margin-right: 25px;
+  max-width: 700px;
+}
+
+  #main-container {
+    max-width: 700px;
+}
+
+  .main-section {
+    max-width: 100%;
+    float: none;
+    overflow: auto;
+}
+
+  .sidebar {
+    float: none;
+    max-width: 100%;
+  }
+
+
+
 
 
 }
